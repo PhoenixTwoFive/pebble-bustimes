@@ -1,0 +1,31 @@
+{
+  "capabilities": ["location"],
+  "name": "bustimes",
+  "author": "Phillip Kühne",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "bustimes",
+    "uuid": "8138e7a1-58ef-49d9-8572-6c00c46baa67",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "NAME",
+      "TIMES",
+      "NUM"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
