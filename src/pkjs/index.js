@@ -31,8 +31,7 @@ function locationSuccess(pos) {
     console.log("Location Found!")
     // Construct URL
     var xmlhttp = new XMLHttpRequest(); // new HttpRequest instance 
-    //var url = 'https://simple-hafas.phillipathome.dynv6.net'
-    var url = 'http://192.168.2.101:3030'
+    var url = 'https://simple-hafas.phillipathome.dynv6.net/departures/nearest'
     // Send request to OpenWeatherMap
     xmlhttp.open("POST", url,true);
     xmlhttp.setRequestHeader("Content-Type", "application/json");
