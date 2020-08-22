@@ -1,8 +1,0 @@
-argv = ['/sdk/.pebble-sdk/SDKs/current/sdk-core/pebble/waf', 'configure']
-environ = {'PEBBLE_TOOLCHAIN_PATH': '/sdk/arm-cs-tools/bin', 'TERM': 'xterm', 'SHLVL': '2', 'PHONESIM_PATH': '/sdk/.env//bin/pypkjs', 'HOSTNAME': 'd40507156f4d', 'PYTHONHOME': '/sdk/.pebble-sdk/SDKs/current/sdk-core/../.env', 'NODE_PATH': '/sdk/.pebble-sdk/SDKs/current/sdk-core/../node_modules', 'PWD': '/work', 'NO_GCE_CHECK': 'False', 'SDK_VERSION': '4.3', 'PATH': '/sdk/arm-cs-tools/bin:/sdk/bin:/sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOME': '/sdk', 'DISPLAY': ':1', '_': '/sdk/.env/bin/python', 'NOCLIMB': '1'}
-files = ['/work/wscript']
-hash = 6211277306917996440
-options = {'files': '', 'jobs': 4, 'verbose': 0, 'nocache': False, 'progress_bar': 0, 'no_groups': False, 'distcheck_args': None, 'top': '', 'sandbox': False, 'destdir': '', 'keep': 0, 'zones': '', 'debug': False, 'prefix': '/usr/local/', 'timestamp': None, 'download': False, 'force': False, 'targets': '', 'out': ''}
-out_dir = '/work/build'
-run_dir = '/work'
-top_dir = '/work'

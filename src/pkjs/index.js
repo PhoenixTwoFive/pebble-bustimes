@@ -31,7 +31,7 @@ function locationSuccess(pos) {
     console.log("Location Found!")
     // Construct URL
     var xmlhttp = new XMLHttpRequest(); // new HttpRequest instance 
-    var url = 'https://simple-hafas.phillipathome.dynv6.net/departures/nearest'
+    var url = 'https://simple-hafas.lab.phillipkuehne.de/departures/nearest'
     // Send request to OpenWeatherMap
     xmlhttp.open("POST", url,true);
     xmlhttp.setRequestHeader("Content-Type", "application/json");
@@ -58,7 +58,7 @@ function locationSuccess(pos) {
                     timePart = diff_minutes(departure.time) + "min"
                 }
                 
-                timesString += (cutPadString(departure.line, 4) + " " + cutPadString(departure.direction, 14) + "\n" + cutPadString(timePart, 6)  + delay + "\n-----------------------\n")
+                timesString += (cutPadString(departure.line.toUpperCase(), 4) + " " + cutPadString(departure.direction, 14) + "\n" + cutPadString(timePart, 6)  + delay + "\n-----------------------\n")
             });
                 
                 
